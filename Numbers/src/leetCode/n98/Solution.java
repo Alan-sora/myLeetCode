@@ -1,5 +1,6 @@
 package leetCode.n98;
 
+
 import util.tree.TreeNode;
 
 public class Solution {
@@ -13,4 +14,31 @@ public class Solution {
         if (root.val <= min || root.val >= max) return false;
         return isValidBST(root.left, min, root.val) && isValidBST(root, root.val, max);
     }
+
+    private static class TreeNode {
+        public   int val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int val) {
+            this.val = val;
+        }
+
+        public TreeNode(int val,TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+
+
+
+
+
+            this.right = right;
+        }
+    }
+
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(1);
+        Solution solution = new Solution();
+        solution.isValidBST(root);
+    }
+
 }
