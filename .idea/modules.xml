@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DS/DS.iml" filepath="$PROJECT_DIR$/DS/DS.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeTop/codeTop.iml" filepath="$PROJECT_DIR$/codeTop/codeTop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeTop/demo/demo.iml" filepath="$PROJECT_DIR$/codeTop/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/domin/domin.iml" filepath="$PROJECT_DIR$/domin/domin.iml" />
       <module fileurl="file://$PROJECT_DIR$/myLeetCode.iml" filepath="$PROJECT_DIR$/myLeetCode.iml" />
     </modules>
