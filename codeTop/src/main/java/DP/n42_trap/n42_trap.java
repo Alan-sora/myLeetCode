@@ -1,4 +1,4 @@
-package DP;
+package DP.n42_trap;
 
 public class n42_trap {
     public int trap(int[] height) {
